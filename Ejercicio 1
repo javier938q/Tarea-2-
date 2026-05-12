@@ -1,0 +1,12 @@
+//Escriba un diagrama de ujo tal que dado como datos dos n ́umeros y calcular la suma, resta y multiplicaci ́on de dichos n ́umeros.
+
+#include <stdio.h>
+int num1 = 50;
+int num2 = 100;
+
+int main ()
+{
+  printf("la suma de los numeros %d y %d es: %d\n", num1, num2 ,(num1 + num2));
+  printf ("la resta de los numeros de %d y %d es: %d", num1, num2, (num1-num2));
+  printf ("la multiplicacion de los numeros %d y %d es: %d", num1, num2, (num1*num2));
+}

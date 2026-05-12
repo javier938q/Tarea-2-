@@ -4,8 +4,18 @@
 //r*2 ∗ π ∗ radio.
 
 #include <stdio.h>
+
+int radio;
+double pi= 3.141516
 {
-  printf( "Este es un programa que calcula el area y la circunferencias de un circulo\n")
-  Printtf("De el valor de la circunferencia  
+  printf( "Este es un programa que calcula el area y la circunferencias de un circulo\n");
+  Printtf("De el valor del radio de la circunferencia que desa calcular");
+  scanf( %d, radio);
+  while( radio>0)
+  {
+   printf("el área de la circunferencia de radio %d es igual a %d", radio, (pi
+  }
+
+}
 
   

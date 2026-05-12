@@ -1,0 +1,17 @@
+/*En una Casa de Cabio necesitan construir un programa que dado como
+dato una cantidad expresada en d´olares, convierta esa cantidad en pesos.
+Construir el diagrama de ujo correspondiente. Tomar en cuenta que:
+1dolar ↢ 11.96pesos.*/
+#include <stdio.h>
+double pesos;
+double dolares;
+double cambio= 11.96;
+int main()
+{
+ printf("Este es un programa que ayuda a convertir tus dolares a pesos mexicanos\n");
+ printf("ingrese cuantos dolares tiene \n");
+ scanf("%lf",&dolares);
+ double pesos = dolares*cambio;
+ printf("ustededtiene %g UDS que son %.3f MXN\n",dolares,pesos);
+ printf("que tenga buen día");
+}

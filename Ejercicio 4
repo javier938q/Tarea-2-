@@ -1,0 +1,27 @@
+/* Una persona invierte en un banco una determinada cantidad de dinero y
+a una cierta tasa de inter´es mensual. Construya un diagrama de ujo que
+permita obtener el monto de dinero que obtendr´a al nalizar el mes.*/
+
+#include <stdio.h>
+
+double dinero;
+double tzaIn=0.54;
+double ganancia;
+
+int main()
+{
+ printf("---inversiones---")
+ printf("Ingrese cuanto dinero quiere invertir este mes");
+ scanf("%lf",&dinero);
+ if(dinero=>0)
+  {
+   ganancia=dinero*tzaIn;
+   printf("tus ganancias del mes si inviertes %g son %g\n",dinero, ganancia);
+  }
+  else
+  {
+   printf("ingrese una cantidad de dinero valida");
+  }
+}
+
+ 

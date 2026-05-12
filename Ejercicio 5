@@ -1,0 +1,13 @@
+/*En un negocio de productos electrodomesticos aplican un descuento del
+8% a todos aquellos clientes cuya compra es superior a 2,500. Dado como
+dato el monto de la compra del cliente, calcule lo que el cliente debe pagar.
+Hacer el diagrama de ujo correspondiente.*/
+
+#include <stdio.h>
+int descuento=8;
+compra;
+int maim()
+{
+printf("bienvenido al elektronicsmx")
+inf
+}

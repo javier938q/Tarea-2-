@@ -8,8 +8,9 @@ double dolares;
 double cambio= 11.96;
 int main()
 {
- printf("Este es un programa que ayuda a convertir tus dolares a pesos mexicanos\n");
- printf("ingrese cuantos dolares tiene \n");
+ printf("---convertidor de divisas---\n");
+
+ printf("bienvenido ingrese cuantos dolares tiene \n");
  scanf("%lf",&dolares);
  double pesos = dolares*cambio;
  printf("ustededtiene %g UDS que son %.3f MXN\n",dolares,pesos);

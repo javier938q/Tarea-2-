@@ -1,0 +1,28 @@
+*/Hacer un diagrama de ujo para calcular el precio de un ticket ida y vuelta
+en ferrocarril, conociendo la distancia de ida y el tiempo de estancia.
+Tambi ́en se sabe que si el numero de d ́ıas de estancia es mayor a 7 y la
+distancias total (ida y vuelta) a recorrer es mayor a 800 km, el ticket tiene
+un descuento del 30%. El precio por km es de 0.23.*/
+#include <stdio.h>
+double t1, po , t2 , d , t ;
+double p=0.23;
+int main()
+{
+  printf("---Bienvenido a ferrocalrriles de mexico---\n");
+  printf("Te ayudaremos a calcular el precio de ticket ingresa la distancia que vas a viajar y el tiempo de estancia\n");
+  scanf("%lf %lf",&d,&t);
+  if(d*2>800,t>7)
+    {
+     double desc; 
+     po=(d*p);
+     desc=po*0.30;
+     t1=po-desc;
+     printf("El precio original es %g\n",po);
+     printf("El descuento fue de %g, precio final %g",desc,t1);  
+    }
+  else
+    {
+     t2=(d*p);
+     printf("El precio del boleto es %g\n",t2);
+    }
+}

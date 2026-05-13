@@ -1,0 +1,5 @@
+/*Hacer un diagrama de ujo que calcule la suma de los n ́umeros pares
+comprendidos entre el 10 y 50.*/
+#include <stdio.h>
+printf("Este un programa suma los numeros pares contenidos entre 10 y 50");
+for()

@@ -30,12 +30,4 @@ int main()
   printf("hay %d numero negativos\n",n);
   printf("hay %d numero neutros\n",neu);
 }
-  
 
-
-
-
-    
-  
-
-}

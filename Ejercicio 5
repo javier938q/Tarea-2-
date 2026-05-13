@@ -4,10 +4,24 @@ dato el monto de la compra del cliente, calcule lo que el cliente debe pagar.
 Hacer el diagrama de ujo correspondiente.*/
 
 #include <stdio.h>
-int descuento=8;
-compra;
-int maim()
+double descuento;
+double compra;
+double precioespecial;
+double desc=0.08;
+int main()
 {
-printf("bienvenido al elektronicsmx")
-inf
+  printf("bienvenido al elektronicsmx")
+  printf("Ingrese el monto total de la compra del cliente");
+  scanf ("%lf",&compra);
+  if (compra>2500)
+  {
+    descuento=compra*desc;
+    precioespecial=compra-descuento;
+    printf("El precio original es de %g pesos pero con el descuento es de %g pesos\n",compra, precioespecial);
+    printf("ahorraste %g pesos\n",descuento); 
+    Printf("Gracias por tu compra¡¡¡¡");
+  }
+  else
+    printf("la compra final es de %g",compra);
+
 }

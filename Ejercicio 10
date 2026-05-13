@@ -1,0 +1,15 @@
+/*Construya un diagrama de flujo que lea 100 n ́umeros reales y cuente
+cuantos de ellos son positivos, negativos o nulos.*/
+
+#include <stdio.h>
+int i,num1, num2, num3,num4,num5,p,n;
+main();
+{
+  printf("Este es un programa que lee 100 numeros reales y te dice cuantos de ello son positivos y cuantos son negativos");
+  scanf(" %d %d %d %d %d",&num1, &num2, &num3,&num4,&num5);
+  for(i=0;i<5;i++)
+  {
+    
+  }
+
+}

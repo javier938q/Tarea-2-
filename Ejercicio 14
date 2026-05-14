@@ -1,0 +1,19 @@
+/*construya un programa tal que dado como entrada un arreglo unidimen-
+sional de enteros y un n ́umero entero, determine cu ́antas veces se encuentra
+el n ́umero dentro del arreglo.*/
+
+#include <stdio.h>
+int lista[10];
+int n,i;
+int main()
+{
+  printf("\tEste es un programa que te ayuda a saber cuatas vesces hay un numero repetido en una lista\n\n");
+  printf("ingrese el numero numero objetivo\n");
+  scanf("%d",&n);
+  printf("Ahora llene la lista de numeros\n");
+  for(i=0; i<10;i++)
+  {
+    scanf("%d\n",&lista[i]);
+    printf("El %d valor es:%d",i+1,lista[i]);
+  }
+}

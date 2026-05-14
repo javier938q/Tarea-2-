@@ -1,5 +1,15 @@
 /*Hacer un diagrama de ujo que calcule la suma de los n ́umeros pares
 comprendidos entre el 10 y 50.*/
 #include <stdio.h>
-printf("Este un programa suma los numeros pares contenidos entre 10 y 50");
-for()
+int par,i,par;
+int sum;
+int main()
+{
+  printf("Este un programa suma los numeros pares contenidos entre 10 y 50");
+  for(i=0;par<==10+(2*i);i++)
+  {
+  par=10+(2*i);
+  sum=sum+par;
+  }
+  printf("la suma de los numeros par que se encuentran contenidos del 10 al 50 es:%d\n",sum);
+}

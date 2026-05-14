@@ -1,0 +1,17 @@
+/*Hacer un diagrama de ujo que calcule e imprima el producto de los N
+primeros n ́umeros naturales.*/
+#include <stdio.h>
+int i,n;
+int multi=1;
+int main()
+{
+  printf("Este es un programa que calcula la suma de los primeros n numeros naturales\n");
+  printf("Ingrese la catidad de números naturales de los que quiere saber la suma \n");
+  scanf("%d",&n);
+  for(i=1;i<=n;i++)
+  {
+    multi=multi*i;
+  }
+  printf("la suma de los primeros %d numeros es : %d",n,multi);
+}
+

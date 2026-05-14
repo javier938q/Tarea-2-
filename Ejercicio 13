@@ -1,0 +1,23 @@
+/*Escribir un diagrama de ujo tal que dado como entrada un arreglo uni-
+dimensional de enteros, obtenga como resultado la suma de los mismos.*/
+
+
+#include <stdio.h>
+int lista[5]={1,2,3,4,5};
+int i;
+int sum=0;
+int main()
+{
+  printf("\tEste es un programa que suma lo elementos de un arreglo unidimencional\n");
+  printf("los numeros dados son:\n");
+  for(i=0;i<5;i++)
+    {
+      
+      printf(" %d ",lista[i]);
+    }
+  for(i=0;i<5;i++)
+  {
+    sum=sum+list[i];
+  } 
+  printf("La suma de los numeros es: %d",sum);
+}

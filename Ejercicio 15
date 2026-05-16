@@ -5,18 +5,18 @@ o nulos.*/
 
 #include <stdio.h>
 
-int lista[5];
+int lista[10];
 int p,n,neu,i;
 int main()
 {
-  printf("\fEste es un programa que te ayuda saber cuantos numeros hay positivos, negativos y neutros segun una lista ingresada\n");
+  printf("\tEste es un programa que te ayuda saber cuantos numeros hay positivos, negativos y neutros segun una lista ingresada de 10 componentes\n");
   printf("Igrese la lista deseada de componentes\n");
-  for(i=0;i<5;i++)
+  for(i=0;i<10;i++)
   {
     scanf("%d",&lista[i]);
     printf("El %d valor es:%d\n",i+1,lista[i]);
   }
-   for (i=0;i<100;i++)
+   for (i=0;i<10;i++)
     {
       if(lista[i]>0);
       {
@@ -34,8 +34,8 @@ int main()
        neu=neu+1;
       }
     }
-  printf("hay %d numero positivo\n",p);
-  printf("hay %d numero negativos\n",n);
-  printf("hay %d numero neutros\n",neu);
+  printf("Hay %d numero positivo\n",p);
+  printf("Hay %d numero negativos\n",n);
+  printf("Hay %d numero neutros\n",neu);
 }
  

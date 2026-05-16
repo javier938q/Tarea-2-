@@ -10,8 +10,8 @@ double precioespecial;
 double desc=0.08;
 int main()
 {
-  printf("bienvenido al elektronicsmx")
-  printf("Ingrese el monto total de la compra del cliente");
+  printf("bienvenido al elektronicsmx\n");
+  printf("Ingrese el monto total de la compra del cliente\n");
   scanf ("%lf",&compra);
   if (compra>2500)
   {
@@ -19,9 +19,12 @@ int main()
     precioespecial=compra-descuento;
     printf("El precio original es de %g pesos pero con el descuento es de %g pesos\n",compra, precioespecial);
     printf("ahorraste %g pesos\n",descuento); 
-    Printf("Gracias por tu compra¡¡¡¡");
+    printf("Gracias por tu compra¡¡¡¡");
   }
   else
-    printf("la compra final es de %g",compra);
-
+  {
+    printf("la compra final es de %g\n",compra);
+    printf("Gracias por tu compra¡¡¡¡");
+  }
+    
 }

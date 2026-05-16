@@ -1,7 +1,7 @@
-*/Dado como dato el sueldo de un trabajador considere un aumento del
+/*Dado como dato el sueldo de un trabajador considere un aumento del
 15% si un sueldo es inferior a 1,000 y de un 12% en caso contrario.
 Imprimir el sueldo con el aumento incorporado. Hacer el diagrama de
-ujo correspondiente./*
+ujo correspondiente.*/
 
 
 #include <stdio.h>
@@ -11,8 +11,8 @@ double mayor=0.15;
 
 int main()
 {
-  printf("---calculador de salario---");
-  printf("Ingrese el salario del trabajador del que quiere saber el aumento");
+  printf("---calculador de salario---\n");
+  printf("Ingrese el salario del trabajador del que quiere saber el aumento\n");
   scanf("%lf",&salario);
   if(salario>1000)
   {
@@ -30,6 +30,6 @@ int main()
     aumento=salario*mayor;
     salarion=salario+aumento;
     printf("El aumento fue de %g pesos\n",aumento);
-    printf("El salario del trabajador es de %g pesos");
+    printf("El salario del trabajador es de %g pesos",salarion);
   }
 }

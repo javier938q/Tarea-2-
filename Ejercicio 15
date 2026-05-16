@@ -1,0 +1,26 @@
+/*Escribir un diagrama de ujo tal que dado como entrada un arreglo unidi-
+mensional de enteros, determinar cu ́antos de ellos son positivos, negativos
+o nulos.*/
+
+
+#include <stdio.h>
+
+int lista[5];
+int p,n,neu,i;
+int main()
+{
+  printf("\fEste es un programa que te ayuda saber cuantos numeros hay positivos, negativos y neutros segun una lista ingresada\n");
+  printf("Igrese la lista deseada de componentes\n");
+  for(i=0;i<5;i++)
+  {
+    scanf("%d",&lista[i]);
+    printf("El %d valor es:%d\n",i+1,lista[i]);
+  }
+  for(i=0;i<5;i++)
+  {
+    if(lista[i]==n)
+    contador=contador+1;  
+  }
+  printf("el numero %d se repite %d en la lista",n,contador);
+  
+}

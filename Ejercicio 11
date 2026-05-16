@@ -5,8 +5,8 @@ int par,i,par;
 int sum;
 int main()
 {
-  printf("Este un programa suma los numeros pares contenidos entre 10 y 50");
-  for(i=0;par<==10+(2*i);i++)
+  printf("\tEste un programa suma los numeros pares contenidos entre 10 y 50\n");
+  for(i=0;i<21;i++)
   {
   par=10+(2*i);
   sum=sum+par;

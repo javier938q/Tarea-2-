@@ -9,7 +9,7 @@ double radio;
 double pi= 3.141516;
 int main()
 {
-  printf( "Este es un programa que calcula el area y la circunferencias de un circulo\n");
+  printf( "\tEste es un programa que calcula el area y la circunferencias de un circulo\n");
   printf("De el valor del radio de la circunferencia\n");
   scanf ("%lf", &radio);
   if(radio>0)

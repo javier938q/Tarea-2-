@@ -5,13 +5,13 @@ int i,n;
 int multi=1;
 int main()
 {
-  printf("Este es un programa que calcula la suma de los primeros n numeros naturales\n");
-  printf("Ingrese la catidad de números naturales de los que quiere saber la suma \n");
+  printf("Este es un programa que calcula la multiplicacion de los primeros n numeros naturales\n");
+  printf("Ingrese la catidad de números naturales que quiere multiplicar\n");
   scanf("%d",&n);
   for(i=1;i<=n;i++)
   {
     multi=multi*i;
   }
-  printf("la suma de los primeros %d numeros es : %d",n,multi);
+  printf("la multiplicacion de los primeros %d numeros es : %d",n,multi);
 }
 

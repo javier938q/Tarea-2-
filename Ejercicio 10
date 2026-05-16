@@ -7,10 +7,10 @@ int main()
 {
   printf("Este es un programa que lee 100 numeros reales y te dice cuantos de ello son positivos y cuantos son negativos\n");
   printf("Ingrese los 100 valores\n");
-  for (i=0;i<100;i++)
+  for (i=0;i<3;i++)
     {
       scanf("%d",&num);
-      if(num>0);
+      if(num>=0)
       {
         if(num>0)
           {
@@ -18,12 +18,12 @@ int main()
           }   
         else
         {
-          n=n+1;
+          neu=neu+1;
         }
       }
-      if(num==0)
+      if(num<0)
       {
-       neu=neu+1;
+       n=n+1;
       }
     }
   printf("hay %d numero positivo\n",p);

@@ -3,21 +3,26 @@ dimensional de enteros, obtenga como resultado la suma de los mismos.*/
 
 
 #include <stdio.h>
-int lista[5]={1,2,3,4,5};
+int lista[5];
 int i;
 int sum=0;
 int main()
 {
   printf("\tEste es un programa que suma lo elementos de un arreglo unidimencional\n");
-  printf("los numeros dados son:\n");
+  printf("ingrese una lista de numeros de 5 elementos\n");
   for(i=0;i<5;i++)
     {
       
-      printf(" %d ",lista[i]);
+      scanf(" %d ",lista[i]);
     }
   for(i=0;i<5;i++)
   {
-    sum=sum+list[i];
+    sum=sum+lista[i];
   } 
   printf("La suma de los numeros es: %d",sum);
+  for(i=0;i<5;i++)
+    {
+      
+      scanf(" %d ",lista[i]);
+    }
 }

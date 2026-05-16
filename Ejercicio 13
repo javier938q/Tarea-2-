@@ -10,19 +10,18 @@ int main()
 {
   printf("\tEste es un programa que suma lo elementos de un arreglo unidimencional\n");
   printf("ingrese una lista de numeros de 5 elementos\n");
-  for(i=0;i<5;i++)
-    {
-      
-      scanf(" %d ",lista[i]);
-    }
+  for(i=0; i<5;i++)
+  {
+    scanf("%d\n",&lista[i]);
+    printf("El %d valor es:%d\n",i+1,lista[i]);
+  }
   for(i=0;i<5;i++)
   {
     sum=sum+lista[i];
   } 
   printf("La suma de los numeros es: %d",sum);
   for(i=0;i<5;i++)
-    {
-      
-      scanf(" %d ",lista[i]);
+    {  
+      printf("La suma de los numeros dados es %d",sum);
     }
 }

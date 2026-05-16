@@ -10,10 +10,10 @@ double ganancia;
 
 int main()
 {
- printf("---inversiones---")
+ printf("---inversiones---\n");
  printf("Ingrese cuanto dinero quiere invertir este mes");
  scanf("%lf",&dinero);
- if(dinero=>0)
+ if(dinero>=0)
   {
    ganancia=dinero*tzaIn;
    printf("tus ganancias del mes si inviertes %g son %g\n",dinero, ganancia);

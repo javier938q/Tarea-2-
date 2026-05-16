@@ -17,9 +17,9 @@ int main()
    double area = pi*radio*radio;
    double circunferencia = 2*pi*radio;
 
-   printf("Para una circunferencia de radio %.2f\n",radio);
-   printf("el área es %.2f\n",area);
-   printf("La circunferencia es %.2f\n",circunferencia);
+   printf("Para una circunferencia de radio %g\n",radio);
+   printf("el área son %.2f unidades cuadradas\n",area);
+   printf("La circunferencia es %.2f unidades\n",circunferencia);
   }
   else
   {
